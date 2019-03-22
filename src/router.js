@@ -1,6 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import User from "./views/User";
+import Soporte from "./views/Soporte";
+import CreateNotification from "./views/CreateNotification";
+import EditNotification from "./views/EditNotification";
 
 Vue.use(Router);
 
@@ -14,13 +18,25 @@ export default new Router({
       component: Home
     },
     {
-      path: "/about",
-      name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
+      path: "/usuario",
+      name: "usuario",
+      component: User
+    },
+    {
+      path: "/soporte",
+      name: "soporte",
+      component: Soporte
+    },
+    {
+      path: "/notificacion/crear",
+      name: "create-notification",
+      component: CreateNotification
+    },
+    {
+      path: "/notificacion/editar/:id",
+      name: "edit-notification",
+      component: EditNotification,
+      props: true
     }
   ]
 });

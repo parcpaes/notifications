@@ -1,0 +1,60 @@
+{
+  "notificaciones": [
+    {
+      "id": 1,
+      "titulo": "Asessoramiento",
+      "descripcion": "Acesoramiento Educacional Ambiental",
+      "area": "Agropecuaria",
+      "fecha": "21-04-2019",
+      "time": "17:18"
+    },
+    {
+      "titulo": "virus spread",
+      "descripcion": "virus de red",
+      "area": "Redes",
+      "fecha": "22-2-2019",
+      "time": "16:15",
+      "id": 2
+    },
+    {
+      "titulo": "Corto circuito x",
+      "descripcion": "fallo de aparatos electricos",
+      "area": "Eletronica",
+      "fecha": "22-2-2019",
+      "time": "17:29",
+      "id": 3
+    }
+  ],
+  "mensajes": [
+    {
+      "id": 1,
+      "iduser": "usuario",
+      "msg": "que tipo de abono organico es recomendable para la frutilla?",
+      "notificacioneId": 1
+    },
+    {
+      "id": 2,
+      "iduser": "soporte",
+      "msg": "si puedes usar cascara de frutas",
+      "notificacioneId": 1
+    },
+    {
+      "id": 124141,
+      "iduser": "soporte",
+      "msg": "tengan cuidado con el virus wannacry",
+      "notificacioneId": 2
+    },
+    {
+      "id": 489975,
+      "iduser": "usuario",
+      "msg": "okay estaremos al tanto",
+      "notificacioneId": 2
+    },
+    {
+      "id": 710361,
+      "iduser": "usuario",
+      "msg": "esta semana se haran practicas",
+      "notificacioneId": 3
+    }
+  ]
+}
